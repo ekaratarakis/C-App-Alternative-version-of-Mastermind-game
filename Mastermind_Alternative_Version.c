@@ -166,8 +166,8 @@ int main(int argc, char *argv[])
       			while((enable_duplicate==0 && flag==1) || count !=3)
 	  		{
 	  	 		flag=0,count=0;
-      	 			printf("Give correct guess number.");  //an exei bei se afthn thn while loop to programa shmainei oti o guess number tou xrhsth den plhrei
-         			scanf("%d", &guess);                   //tis proypotheseis pou o idios eixe thesei pio prin opote tou zhtaw na ksanadwsei mexri na tis plhrei
+      	 			printf("Give correct guess number.");  
+         			scanf("%d", &guess);                   
          			tostring(guesstr,guess,n); // calling the function tostring() in order to the secret number into string
          			div=guess;    
          			while(div!=0) // counting the number of digits in the guess number 
